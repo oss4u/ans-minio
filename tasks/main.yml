@@ -1,2 +1,8 @@
 ---
 # tasks file for ans-minio
+
+- name: "Install minio from min.io"
+  get_url:
+    url: https://dl.min.io/server/minio/release/darwin-amd64/minio
+    dest: /usr/local/bin/minio
+    mode: '0755'
