@@ -1,2 +1,6 @@
 ---
 # defaults file for ans-minio
+minio:
+  volumes: "/data/minio"
+  user: "minio"
+  group: "minio"
