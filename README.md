@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Foss4u%2Fans-minio.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Foss4u%2Fans-minio?ref=badge_shield)
+
 Role Name
 =========
 
@@ -36,3 +38,7 @@ Author Information
 ------------------
 
 An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Foss4u%2Fans-minio.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Foss4u%2Fans-minio?ref=badge_large)
