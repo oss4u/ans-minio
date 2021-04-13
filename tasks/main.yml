@@ -1,12 +1,17 @@
 ---
 # tasks file for ans-minio
+- name: "Create minio group"
+  ansible.builtin.group:
+    name: "{{ minio.group }}"
+    state: present
 
 - name: "Create minio user"
   ansible.builtin.user:
-    name: johnd
-    comment: John Doe
+    name: "{{ minio.user }}"
+    comment: Minio-User
     uid: 1040
-    group: admin
+    group: "{{ minio.group }}"
+    system: yes
 
 - name: "Install minio from min.io"
   get_url:
